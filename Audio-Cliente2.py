@@ -9,7 +9,7 @@ client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect((host, port))
 
 #Ubicamos el archivo
-filesong = 'shelter.wav'
+filesong = 'navi-hey-look.wav'
 # Abrimos el archivo
 with open(filesong, 'rb') as FileToSend:
     while True:
